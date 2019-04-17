@@ -1,9 +1,9 @@
 resources:
   repositories:
-    - repository: MicrosoftIISCommon
+    - repository: AshishIISCommon
       type: github
-      name: Microsoft/IIS.Common
+      name: iashishmittal/IIS.Common
       endpoint: GitHub-IIS
 
 jobs:
-- template: azure-pipelines.yml@MicrosoftIISCommon # Template reference
+- template: azure-pipelines.yml@AshishIISCommon # Template reference
